@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
-
+import (
+	"fmt"
+	"github.com/senodp/about-golang/calculation"
+)
 func main(){
-	fmt.Println("Seno Dwi Prasetyo")
+	fmt.Println("Belajar Golang Pertamaku")
+
+	result := calculation.Add(10, 10)
+	fmt.Println(result)
 }
